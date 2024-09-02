@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@700&display=swap');
+@media (max-width: 920px){
+    .slime-contenedor{
+        display: none;
+    }
+    #contenedor-logros-galeria{
+        height: 355px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    #contenedor-historia{
+        height: 355px;
+        width: 100%;
+    }
+    #primera-seccion{
+        display: block;
+    }
+    #contenedor-texto-historia{
+        height: 220px;
+    }
+    #logro-1{
+        display: none;
+    }
+    #logro-2{
+        display: none;
+    }
+    #a-ver-logros{
+        margin-left: 35%;
+    }
+    #a-ver-galeria{
+        margin-left: 35%;
+    }
+    #texto-habilidad{
+        font-size: 8px;
+    }
+    #contenedor-tarjetas{
+        display: block;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    #contenedor-personaje{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #contenedor-enemigos{
+        display: block;
+    }
+    #contenedor-enemigo{
+        width: 90%;
+        height: 490px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5px;
+        display: block;
+    }
+    #contenedor-imagen-enemigo{
+        height: 30%;
+        width: 100%;
+    }
+    #contenedor-descripcion-enemigo{
+        padding-left: 10px;
+        width: 100%;
+        height: 70%;
+    }
+    #seccion-niveles{
+        width: 98%;
+    }
+    #seccion-items{
+        width: 98%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    #contenedor-sexta-seccion{
+        display: block;
+    }
+    #contenedor-item{
+        width: 90%;
+        height: 290px;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5px;
+        display: block;
+    }
+    #contenedor-imagen-item{
+        height: 30%;
+        width: 100%;
+    }
+    #contenedor-descripcion-item{
+        padding-left: 10px;
+        width: 100%;
+        height: 70%;
+    }
+    #ver-items{
+        margin-left: 50%;
+    }
+}
+body{
+    background-image: url("../src/imagenes/bg-selv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.contenedor-secciones{
+    background-color: #130D1F;
+    border-radius: 10px;
+}
+.contenedor-columnas-bienvenida{
+    border-radius: 10px;
+    background-image: url("../src/imagenes/welcom-selv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bienvenida{
+    font-family: 'Poppins', sans-serif;
+}
+.bienvenida p{
+    font-size: 20px;
+    margin-top:0px; 
+    margin-bottom:0px;
+}
+.bienvenida span{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0px; 
+    margin-bottom:0px;
+}
+.slime-imagen{
+    height: 90px;
+    float: right;
+}
+.primera-seccion{
+    padding: 0px;
+    display: flex;
+}
+.contenedor-historia{
+    background-color: #221C34;
+    height: 700px;
+    width: 70%;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.contenedor-logros-galeria{
+    height: 700px;
+    width: 30%;
+    margin-left: 5px;
+    padding-bottom: 0px;
+}
+.contenedor-titulo{
+    background-color: black;
+    height: 55px;
+    text-align: center;
+}
+.contenedor-titulo p{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.contenedor-titulo img{
+    height: 44px;
+    width: 44px;
+    max-width: 44px;
+    max-height: 44px;
+}
+.contenedor-texto-historia{
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor-logros{
+    background-color: #221C34;
+    height: 56%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.contenedor-galeria{
+    background-color: #221C34;
+    height: 43%;
+    border-radius: 10px;
+    margin: 0;
+}
+.contenedor-logro{
+    width: 90%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #130D1F;
+    display: flex;
+}
+.contenedor-logro-imagen{
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    margin-right: 7px;
+}
+.contenedor-texto-logro{
+    height: 60px;
+    width: 100%;
+    padding: 0;
+}
+.contenedor-texto-logro span{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contenedor-texto-logro p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.contenedor-texto-logro p:hover{
+    color: #D5D3F2;
+}
+.contenedor-logros a{
+    text-decoration: none;
+    color: #fff;
+}
+.a-ver-logros{
+    margin-left: 55%;
+    color: #639BFF;
+}
+.contenedor-imagenes {
+    display: flex;
+    height: 92%;
+}
+.contenedor-imagenes-derecha {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 40%;
+}
+.contenedor-imagenes-derecha img{
+ height: 47%;    
+}
+.contenedor-imagen-izquierda{
+    display: block;
+    margin: 5px;
+    background-image: url('../src/imagenes/carrusel3.png');
+    background-size: cover;
+    background-position: center;
+    height: 95%;
+    width: 55%;
+}
+.a-ver-galeria{
+    margin-left: 54%;
+    text-decoration: none;
+    color: #639BFF;
+    height: 10px;
+}
+.segunda-seccion{
+    padding: 0px;
+    padding-top: 20px;
+}
+.contenedor-habilidades{
+    background-color: #221C34;
+    border-radius: 10px;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contenedor-habilidad{
+    height: 120px;
+    width: 95%;
+    border-radius: 10px;
+    background-color: #130D1F;
+    display: flex;
+}
+.contenedor-texto-subtitulo{
+    width: 95%;
+    border-radius: 10px;
+}
+.contenedor-texto-subtitulo p{
+    width: 95%;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.contenedor-imagen-habilidad{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 5px;
+}
+.contenedor-texto-habilidad{
+    height: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 5px;
+}
+.contenedor-texto-habilidad h3{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+}
+.contenedor-texto-habilidad p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+.tercera-seccion{
+    padding: 0px;
+    padding-top: 20px;
+}
+.contenedor-personajes{
+    background-color: #221C34;
+    border-radius: 10px;
+    padding: 0;
+    padding-top: 20px;
+}
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+.contenedor-personaje{
+    height: 300px;
+    width: 30%;
+    margin: 20px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.contenedor-imagen{
+    width: 100%;
+    height: 80%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #130D1F;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.contenedor-personaje:hover img{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+.contenedor-nombre-personaje{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contenedor-nombre-personaje{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.contenedor-nombre-personaje h2{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+}
+.contenedor-cuarta-seccion{
+    padding: 0;
+    padding-top: 20px;
+}
+.contenedor-titulo-enemigos{
+    padding-top: 20px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-color: #221C34;
+}
+.contenedor-enemigos{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-enemigo{
+    width: 48%;
+    height: 300px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.contenedor-imagen-enemigo{
+    height: 100%;
+    width: 35%;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.imagen-enemigo{
+    width: 100%;
+    background-color: #130D1F;
+    height: 80%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.contenedor-nombre-enemigo{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contenedor-nombre-enemigo h3{
+    color: #fff;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.contenedor-descripcion-enemigo{
+    height: 100%;
+    width: 62%;
+    padding: 5px;
+    padding-top: 10px;
+}
+.contenedor-descripcion-enemigo h2{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+}
+.contenedor-descripcion-enemigo p{
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor-quinta-seccion{
+    padding: 0;
+    padding-top: 20px;
+}
+.contenedor-sexta-seccion{
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+}
+.seccion-niveles{
+    height: 680px;
+    width: 48%;
+    border-radius: 10px;
+    padding: 0;
+    padding-top: 20px;
+}
+.contenedor-niveles{
+    margin-top: 20px;
+    width: 90%;
+    height: 93px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #221C34;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+.contenedor-niveles:hover{
+    color: #D5D3F2;
+}
+.contenedor-imagen-niveles{
+    height: 70px;
+    width: 70px;
+    margin-right: 10px;
+}
+.contenedor-texto-niveles{
+    width: 85%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.contenedor-texto-niveles h2{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+}
+.seccion-items{
+    height: 680px;
+    width: 48%;
+    border-radius: 10px;
+    padding: 0;
+    padding-top: 20px;
+}
+.contenedor-items{
+    width: 98%;
+    height: 170px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    margin-top: 20px;
+}
+.contenedor-imagen-item{
+    height: 100%;
+    width: 30%;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+.imagen-item{
+    width: 100%;
+    background-color: #130D1F;
+    height: 80%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.contenedor-nombre-item{
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.contenedor-nombre-item h3{
+    color: #fff;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.contenedor-descripcion-item{
+    height: 100%;
+    width: 67%;
+    padding: 5px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.contenedor-descripcion-item p{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.seccion-items a{
+    margin-left: 70%;
+    text-decoration: none;
+    color: #639BFF;
+}

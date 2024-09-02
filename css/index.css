@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@media(max-width: 1015px){
+    .contenedor-parte2{
+        display: none;
+    }
+}
+
+body{
+    background-color: #221C34;
+}
+
+.container-principal{
+    color: #D5D3F2;
+    font-family: Poppins;
+}
+
+.contenedor-texto{
+    width: 778px;
+    max-width: 778px;
+    font-size: 20px;
+}
+
+.boton-descarga{
+    background-color: #4B5DCC;
+    color: #D5D3F2;
+    font-family: Poppins; 
+    font-size: 37px;
+    width: 374px;
+}
+
+.contenedor-parte2{
+    height: 550px;
+}
+
+.contenedor-carrusel{
+    margin: 0;
+    height: 65vh;
+    background-color: #130D1F;
+    max-height: 554px;
+    min-height: 300px;
+}
+
+.boton-conocer-mas{
+    width: 10em;
+    background-color: #D9371A;
+    color: #fff;
+    font-size: 2em;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    max-height: 554px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .col-carrusel{
+    background-color: #D9371A;
+    padding-left: 0px;
+    max-height: 554px;
+    min-height: 300px;
+  }
+
+.selvmord-mariposa{
+    width: 337px;
+    height: 328px;
+}
+
+.texto-permadeath{
+    font-size: 22px;
+}
+
+.titulo-permadeath{
+    font-family: Schibsted Grotesk;
+    font-weight: bold;
+    color: #fff;
+}
+
+.parallax{
+    clear: both;
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    background:url('../src/imagenes/selv-parallax.png') fixed no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.hr-fin{
+    width: 75%;
+    border-color: #fff;
+    border-width: 3px;
+}
+
+.requisitos-texto{
+    font-size: 20px;
+    color: #D5D3F2;
+}
+
+.requisitos-primario{
+    color: #fff;
+}
+
+.centra-nav{
+    margin-right: 8em;
+}
+ 
+.contact-form{
+    background: #130D1F;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-top: -3%;
+    background-color: #130D1F;
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    font-family: Poppins;
+    font-weight: bold;
+    margin-bottom: 8%;
+    margin-top: -17%;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #4B5DCC;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}

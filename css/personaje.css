@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@700&display=swap');
+@media (max-width: 920px){
+    #fila-contenedor{
+        display: block;
+        height: auto;
+    }
+    #contenedor-informacion{
+        width: 100%;
+    }
+    #contenedor-imagen{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #nombre{
+        font-size: 22px;
+    }
+}
+body{
+    background-image: url("../src/imagenes/bg-selv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+.sub-navbar a{
+    font-family: 'Poppins', sans-serif;
+    color: #D5D3F2;
+}
+.sub-navbar p{
+    font-family: 'Poppins', sans-serif;
+}
+.contenedor-personaje{
+    background-color: #130D1F;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.fila-contenedor{
+    height: 100%;
+    display: flex;
+}
+.contenedor-informacion{
+    padding-top: 20px;
+    background-color: #221C34;
+    height: 340px;
+    width: 60%;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.contenedor-imagen{
+    height: 340px;
+    width: 40%;
+    background-color: #221C34;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+}
+.contenedor-titulo{
+    background-color: black;
+    height: 55px;
+}
+.contenedor-titulo p{
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+.contenedor-historia-personaje{
+    overflow: auto;
+    height: 80%;
+    padding: 20px;
+}
+.contenedor-historia-personaje p{
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+    font-size: 20px;
+}
+

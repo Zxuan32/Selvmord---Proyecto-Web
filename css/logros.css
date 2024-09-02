@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@700&display=swap');
+
+body{
+    background-image: url("../src/imagenes/bg-selv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.contenedor-secciones {
+    background-color: #130D1F;
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: auto;
+    padding-bottom: 12px;
+}
+
+.contenedor-titulo {
+    background-color: black;
+    height: 55px;
+    text-align: start;
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.contenedor-logros {
+    background-color: #221C34;
+    height: auto;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.logros {
+    background: #130D1F;
+    width: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 20px;
+    height: auto;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.logros {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logros img {
+    width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+  }
+
+  .logros-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .logros-text h2 {
+    font-family: 'Schibsted Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .descripcion {
+    font-family: poppins;
+    font-size: 15px;
+    color: rgb(89, 89, 86);
+  }
+
+
